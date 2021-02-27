@@ -20,7 +20,9 @@ output_nii_file = string("data/output.nii");
 
 ```{admonition} Julia code cell
 :class: tip
-The main program starts here. No need to modify the code below (although you could use different value of patchsize)
+The main program and the calculation are in the code bellow. If you wish to see the code cell try clicking the button to the right of the empty spot above!
+
+No need to modify the code below (although you could use different value of patchsize).
 ```
 
 %use Julia 
@@ -156,9 +158,9 @@ for i=1:9
     julia_main(magnitude_nii_file,phase_nii_file,partiallyUnwrapped_nii_file,criticalROI_nii_file,Int64(i),criticalROILabel);
 end
 
-```{admonition} Interactive figure
+```{admonition} Python code cell
 :class: tip
-Plotting "output_nii_file" heatmap with slider for navigating through slices
+Now lets try plotting the "output_nii_file" heatmap with a slider for navigating through slices. You can zoom in and out if you wish to explore the phenomenon! 
 ```
 
 %use Python3
