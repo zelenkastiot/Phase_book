@@ -30,3 +30,17 @@ launch_buttons:
 repository:
   url                       : https://github.com/zelenkastiot/Phase_book
   branch                    : main  
+
+parse:
+  myst_enable_extensions:
+    - html_image
+    - amsmath
+    - colon_fence
+    - deflist 
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify 
+    - replacements
+    - smartquotes
+    - substitution
