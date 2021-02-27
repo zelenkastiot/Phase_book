@@ -1,5 +1,7 @@
 # Introduction
-<img src="images/vol82_1.jpg" width="300px;" height="auto;"  align="right">
+
+
+<img src="images/vol82_1.jpg" width="300px" align="right">
 
 Welcome to an interactive Jupyter Book for the Magnetic Resonance in Medicine paper by Nan‐kuei Chen et al. entitled "[*The use of Fourier-domain analyses for unwrapping phase images of low SNR*](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27719)".
 It reports a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR.
