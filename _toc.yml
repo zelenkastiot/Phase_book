@@ -1,0 +1,16 @@
+- file: intro
+  title: "Introduction" 
+
+- part: "Content"
+  chapters:
+  - file: 01/abstract
+    title: "Abstract"
+  - file: 03/sos_notebook
+    title: "Code Example"
+
+- part: "External resources"
+  chapters:
+  - url: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27719
+    title: "Published article" 
+  - url: https://github.com/nankueichen/Fourier_space_phase_unwrapping
+    title: "GitHub repository" 
