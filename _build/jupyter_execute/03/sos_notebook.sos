@@ -5,7 +5,7 @@
 This code example is a Jupyter notebook with [Script of Scripts](https://vatlab.github.io/sos-docs/) (SoS) workflow. It reproduces interactive figures for the highlighted paper by first author **Nan-kuei Chen** and second author **Pei-Hsin Wu**. 
 
 
-The calculations are written using *Julia* (from this fetched from [repo](https://github.com/nankueichen/Fourier_space_phase_unwrapping)), and the interactive figures are written in *Python 3.6* with the ploting library [Plotly](https://plotly.com/).  
+The calculations are written using *Julia* (from this fetched from [repo](https://github.com/nankueichen/Fourier_space_phase_unwrapping)), and the interactive figures are written in *Python 3.8.6* with the ploting library [Plotly](https://plotly.com/).  
 
 %use Julia
 
@@ -20,7 +20,7 @@ output_nii_file = string("data/output.nii");
 
 ```{admonition} Julia code cell
 :class: tip
-The main program and the calculation are in the code bellow,  you could use different value of patchsize. 
+The main program and the calculation are in the code bellow, you could use different value of patchsize.
 
 If you wish to see the code cell, try clicking the button to the right of the empty spot bellow!
 ```
@@ -160,9 +160,9 @@ end
 
 ```{admonition} Python code cell
 :class: tip
-Now lets try plotting the "output_nii_file" heatmap with a slider for navigating through slices. 
+Now lets try plotting the “output_nii_file” heatmap with a slider for navigating through slices.
 
-You can zoom in and out if you wish to explore the phenomenon! 
+You can zoom in and out if you wish to explore the phenomenon!
 ```
 
 %use Python3
@@ -229,9 +229,9 @@ sliders = [dict(
     steps = steps
 )]
 
-# Setup the layout of the figure
+# Setup the layout of the figure; NOTE this \t, are tabs for the layout in the html render. You can delete some of them in order to see the "Filtered"
 layout = go.Layout(
-    title = "\t \t \t \t \t \t \t \t \t Prelude \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t Filtered", 
+    title = "\t \t \t \t \t \t \t \t \t Prelude \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t Filtered", 
     width=780,
     height=640,
     margin=go.layout.Margin(
@@ -255,4 +255,4 @@ plot(fig, filename = 'fig.html', config = config)
 
 display(HTML('fig.html'))
 # Local offline use
-# iplot(fig,config=config)
+# iplot(fig, config=config)
