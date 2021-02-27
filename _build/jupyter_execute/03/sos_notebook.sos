@@ -20,9 +20,9 @@ output_nii_file = string("data/output.nii");
 
 ```{admonition} Julia code cell
 :class: tip
-The main program and the calculation are in the code bellow. If you wish to see the code cell try clicking the button to the right of the empty spot above!
+The main program and the calculation are in the code bellow,  you could use different value of patchsize. 
 
-No need to modify the code below (although you could use different value of patchsize).
+If you wish to see the code cell, try clicking the button to the right of the empty spot bellow!
 ```
 
 %use Julia 
@@ -160,7 +160,9 @@ end
 
 ```{admonition} Python code cell
 :class: tip
-Now lets try plotting the "output_nii_file" heatmap with a slider for navigating through slices. You can zoom in and out if you wish to explore the phenomenon! 
+Now lets try plotting the "output_nii_file" heatmap with a slider for navigating through slices. 
+
+You can zoom in and out if you wish to explore the phenomenon! 
 ```
 
 %use Python3
@@ -180,7 +182,7 @@ init_notebook_mode(connected=True)
 config={'showLink': False, 'displayModeBar': False}
 
 # If you run on your local machine comment out this line
-os.chdir("/home/jovyan/work/PhaseUnwrapping_book/content/03/data")
+os.chdir("/home/jovyan/work/Phase_book/03/data")
 
 
 # Load nifti files 
