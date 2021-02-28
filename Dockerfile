@@ -136,7 +136,7 @@ RUN cd $HOME/work;\
                 ipywidgets \
                 nibabel \
                 nbconvert; \
-    python -m sos_notebook.install;\
+    python -m sos_notebook.install; \
     jupyter labextension install --minimize=False jupyterlab-sos; \
     git clone https://github.com/zelenkastiot/Phase_book.git; \
     cd Phase_book;\
