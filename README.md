@@ -1,4 +1,4 @@
-# Phase unwrapping Jupyter-Book
+# Jupyter-Book for Phase unwrapping MRM paper
 
 [![Binder](https://github.com/zelenkastiot/binder_badges/blob/master/badges/PhaseUnwrapping-binder.svg)](https://mybinder.org/v2/gh/zelenkastiot/Phase_book/main?urlpath=lab/tree/03/sos_notebook.ipynb)
 
@@ -14,9 +14,9 @@ Code: https://github.com/nankueichen/Fourier_space_phase_unwrapping
 **Purpose**: We report a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR.
 
 
-A demo of the hosted book: https://notebook-factory.github.io/PhaseUnwrapping_book/intro [jupyter-book: 0.6.4]
+A odler demo of the hosted book: https://notebook-factory.github.io/PhaseUnwrapping_book/intro [jupyter-book: 0.6.4]
 
-A demo of the hosted book: https://zelenkastiot.github.io/Phase_book/intro.html [jupyter-book: 0.10.0]
+A newest demo of the hosted book: https://zelenkastiot.github.io/Phase_book/intro.html [jupyter-book: 0.10.0]
 
 <br>
 
