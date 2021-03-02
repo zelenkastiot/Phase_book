@@ -1,9 +1,9 @@
 name: Binder build
 on:
-  push:
-    branches:
-      - main 
-
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '00 19 * * 2'
+             
 jobs:
   Create-MyBinderOrg-Cache:
     runs-on: ubuntu-latest
